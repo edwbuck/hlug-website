@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.houstonlinux.www</groupId>
+  <artifactId>website</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+
+  <name>HLUG Website</name>
+  <url>http://houstonlinux.org</url>
+  <description>
+    The public facing website of the Houston Linux User's Group.
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.site.deploy.clean>true</maven.site.deploy.clean>
+  </properties>
+
+  <distributionManagement>
+    <site>
+      <id>houstonlinux.org</id>
+      <name>houstonlinux.org</name>
+      <url>scp://root@houstonlinux.org:9876/srv/www/houstonlinux.org/public_html/test/</url>
+    </site>
+  </distributionManagement>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh</artifactId>
+        <version>2.12</version>
+      </extension>
+    </extensions>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>website</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.6</version>
+            <dependencies>
+              <dependency>
+                <groupId>io.wcm.maven.skins</groupId>
+                <artifactId>reflow-velocity-tools</artifactId>
+                <version>1.0.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity</artifactId>
+                <version>1.7</version>
+              </dependency>
+            </dependencies>
+            <configuration>
+              <siteDirectory>${basedir}/src/website/</siteDirectory>
+              <outputDirectory>${project.build.directory}/website/</outputDirectory>
+              <stagingDirectory>${project.build.directory}/website-stage/</stagingDirectory>
+<!--
+              <templateFile>${basedir}/src/website/site.vm</templateFile>
+-->
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>2.8</version>
+            <configuration>
+              <skip>true</skip>
+            </configuration>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+  </profiles>
+
+</project>
+<!-- set ft=xml expandtab ts=2 sw=2 ai -->
