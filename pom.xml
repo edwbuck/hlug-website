@@ -15,6 +15,51 @@
     The public facing website of the Houston Linux User's Group.
   </description>
 
+  <developers>
+    <developer>
+      <id>edwbuck</id>
+      <name>Edwin Buck</name>
+      <email>edwbuck@gmail.com</email>
+      <organization>Houston Linux User's Group</organization>
+      <organizationUrl>http://houstonlinux.org/</organizationUrl>
+      <timezone>America/Chicago</timezone>
+      <roles>
+        <role>President</role>
+        <role>Website Maintainer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>ColMelvin</id>
+      <name>Chris Lindee</name>
+      <organization>Houston Linux User's Group</organization>
+      <organizationUrl>http://houstonlinux.org/</organizationUrl>
+      <timezone>America/Chicago</timezone>
+      <roles>
+        <role>Website Maintainer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>Osndok</id>
+      <name>Robert Hailey</name>
+      <organization>Houston Linux User's Group</organization>
+      <organizationUrl>http://houstonlinux.org/</organizationUrl>
+      <timezone>America/Chicago</timezone>
+      <roles>
+        <role>Website Maintainer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>cPMarco</id>
+      <name>Marco Ferrufino</name>
+      <organization>Houston Linux User's Group</organization>
+      <organizationUrl>http://houstonlinux.org/</organizationUrl>
+      <timezone>America/Chicago</timezone>
+      <roles>
+        <role>Website Maintainer</role>
+      </roles>
+    </developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.site.deploy.clean>true</maven.site.deploy.clean>
