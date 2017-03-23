@@ -12,22 +12,44 @@
 
   <custom>
     <reflowSkin>
+      <smoothScroll>true</smoothScroll>
+      <theme>bootswatch-spacelab</theme>
+
       <brand>
         <name>The Houston Linux User's Group</name>
         <href>http://houstonlinux.org/test/</href>
       </brand>
       <slogan>Hacking Linux since 1995</slogan>
 
-      <toc>top</toc>
-      <tocTopMax>6</tocTopMax>
+      <breadcrumbs>true</breadcrumbs>
+      <toc>sidebar</toc>
+
+      <skinAttribution>false</skinAttribution>
+
+      <pages>
+        <index>
+          <breadcrumbs>false</breadcrumbs>
+          <toc>false</toc>
+          <sections>
+            <carousel/>
+            <body/>
+          </sections>
+      
+        </index>
+      </pages>
 
     </reflowSkin>
   </custom>
 
+  <publishDate position="none"/>
+  <version position="none"/>
   <body>
-    <menu name="Main" inherit="top">
+    <links>
+<!-- Who what when where why -->
       <item name="Welcome" href="index.html"/>
-    </menu>
+      <item name="Events" href="events.html"/>
+<!-- Meetings -->
+    </links>
   </body>
   <poweredBy>
     <logo width="155" height="60" name="Maven" href="https://kernel.org/"
