@@ -9,10 +9,11 @@
 
   <packaging>pom</packaging>
 
-  <name>HLUG Website</name>
+  <name>HLUG Website Project</name>
   <url>http://houstonlinux.org</url>
   <description>
-    The public facing website of the Houston Linux User's Group.
+    This project builds the staticly served portion of the Houston Linux User's Group
+    website.  This website can be found at http://houstonlinux.org/
   </description>
 
   <properties>
@@ -36,7 +37,44 @@
         <version>2.12</version>
       </extension>
     </extensions>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.6</version>
+        <dependencies>
+          <dependency>
+            <groupId>io.wcm.maven.skins</groupId>
+            <artifactId>reflow-velocity-tools</artifactId>
+            <version>1.0.0</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
   </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.9</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>index</report>
+              <report>project-team</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <profiles>
     <profile>
@@ -47,25 +85,10 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-site-plugin</artifactId>
             <version>3.6</version>
-            <dependencies>
-              <dependency>
-                <groupId>io.wcm.maven.skins</groupId>
-                <artifactId>reflow-velocity-tools</artifactId>
-                <version>1.0.0</version>
-              </dependency>
-              <dependency>
-                <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity</artifactId>
-                <version>1.7</version>
-              </dependency>
-            </dependencies>
             <configuration>
               <siteDirectory>${basedir}/src/website/</siteDirectory>
               <outputDirectory>${project.build.directory}/website/</outputDirectory>
               <stagingDirectory>${project.build.directory}/website-stage/</stagingDirectory>
-<!--
-              <templateFile>${basedir}/src/website/site.vm</templateFile>
--->
             </configuration>
           </plugin>
         </plugins>
@@ -75,7 +98,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>2.8</version>
+            <version>2.9</version>
             <configuration>
               <skip>true</skip>
             </configuration>
