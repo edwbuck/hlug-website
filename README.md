@@ -1,7 +1,7 @@
 # Houston Linux User's Group Website Sources
 
 The Houston Linux User's Group is the longest lived, most active, Linux User's
-Group in Houston Texas.  Founded in 1995, it has moved locations a number of
+Group in Houston, Texas.  Founded in 1995, it has moved locations a number of
 times, and currently holds weekly meetings.
 
 This repository contains the source content and generation tools to render
