@@ -1,6 +1,6 @@
 #### [Advocacy][hlug-advocacy]
 
-[![Advocacy](images/carousel-themes.png)][hlug-advocacy]
+[![Advocacy](images/lightblue.png)][hlug-advocacy]
 
 The Houston Linux User's group is passionate about Linux uptake.  If you have a problem
 and are looking at Linux, our community of professionals can assist in helping you find
@@ -8,7 +8,7 @@ weigh the merits and challenges of a Linux based solution.
 
 #### [Education][hlug-education]
 
-[![Education](images/carousel-themes.png)][hlug-education]
+[![Education](images/green.png)][hlug-education]
 
 Looking to brush up on your Linux skills?  The Houston Linux User's Group offers
 seminars, classes, tutors, and mentors; allowing you to meet your learning goals
@@ -16,7 +16,7 @@ without the stress of an unguided education through online materials.
 
 #### [Support][hlug-support]
 
-[![Support](images/carousel-themes.png)][hlug-support]
+[![Support](images/blue.png)][hlug-support]
 
 Is there a Linux problem that's been nagging you?  Do you need a second pair of eyes to
 tackle it?  Our Lab Sessions have members willing to help you reconfigure that odd
@@ -24,7 +24,7 @@ sound card, fix a unreadble font, diagnose a personal website, or assist an inst
 
 #### [Socializing][hlug-socializing]
 
-[![Socializing](images/carousel-themes.png)][hlug-socializing]
+[![Socializing](images/lightgreen.png)][hlug-socializing]
 
 Looking to mingle with Linux loving people?  The Houston Linux User's Group welcomes
 new Linux users and old hands alike.  Meet new people at one of our meetings, or
