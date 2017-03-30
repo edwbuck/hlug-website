@@ -43,7 +43,7 @@ attend one of our dedicated mixers.
   Whether you are looking to socialize with Linux loving peers, promote the
   adoption of Linux in a particular venue, or learn about Linux and its
   software offerings, the Houston Linux User's Group can assist you in making
-  your Linux goals a Linux reality.
+  your Linux dreams into reality.
 
 ## Lab Meeting - Wednesday, March 22th, 2017
 
