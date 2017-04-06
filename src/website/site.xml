@@ -47,6 +47,7 @@
     <links>
 <!-- Who what when where why -->
       <item name="Welcome" href="index.html"/>
+      <item name="Support" href="support.html"/>
       <item name="Events" href="events.html"/>
 <!-- Meetings -->
     </links>
