@@ -24,7 +24,7 @@ Looking to mingle with Linux loving people?
 
 [hlug-advocacy]: advocacy/
 [hlug-education]: education/
-[hlug-support]: support/
+[hlug-support]: support.html
 [hlug-socializing]: social/
 
 ---
