@@ -1,7 +1,7 @@
 # Support Offerings
 
 The Houston Linux User's Group can help you install your Linux system, configure
-it to your liking, and use the applicaitons within to achieve your goals.  Our
+it to your liking, and use the applications within to achieve your goals.  Our
 volunteers hold Lab Sessions where you can bring your hardware for one-on-one 
 assistance.  Most issues can be resolved within a single meeting.  Tasks
 requiring large amounts of effort are welcome, but may stretch across multiple
@@ -35,13 +35,12 @@ most common configuration requests.
 
 ## Application Support
 
-The typical Linux installation comes with a large number of free, freely
-available software packages.  The breadth and depth of freely available software
-is staggering.  For nearly every software solution, there is a Linux port or
-analogue.
+The typical Linux installation comes with a large number of free software
+packages.  The breadth and depth of freely available software is staggering.
+For nearly every software solution, there is a Linux port or analogue.
 
 The Houston Linux User's Group has experience with the most commonly used Linux
-software packages.  While we cannot accomodate support for every application,
-our volunteers have experience with the majority of popular applications.  If
-looking for a solution to a specific problem, our volunteers might suggest
-applications to suit your needs.
+software packages.  While we cannot accommodate support requests for every
+application, we are happy to help with familiar, popular applications.  If
+you are looking for a solution to a specific problem, our volunteers might
+suggest applications to suit your needs.
