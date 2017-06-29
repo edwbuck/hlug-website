@@ -48,6 +48,7 @@
 <!-- Who what when where why -->
       <item name="Welcome" href="index.html"/>
       <item name="Events" href="events.html"/>
+      <item name="Location" href="location.html"/>
 <!-- Meetings -->
     </links>
   </body>
