@@ -13,9 +13,6 @@ at http://houstonlinux.org/.
 The casual user should browse to http://houstonlinux.org/ and see the current
 publication of these sources.
 
-The curious may navigate to http://houstonlinux.org/test/ and see a possible
-rendering pre-publication.
-
 The bold may fork or clone these files to leverage the project in the generation
 of their own website, however we ask that you not misrepresent your efforts as
 those of the Houston Linux User's Group.

@@ -17,7 +17,7 @@
 
       <brand>
         <name>The Houston Linux User's Group</name>
-        <href>http://houstonlinux.org/test/</href>
+        <href>http://houstonlinux.org/</href>
       </brand>
       <slogan>Hacking Linux since 1995</slogan>
 
@@ -33,6 +33,7 @@
           <sections>
             <carousel/>
             <body/>
+            <sidebar/>
           </sections>
       
         </index>
@@ -45,12 +46,19 @@
   <version position="none"/>
   <body>
     <links>
-<!-- Who what when where why -->
       <item name="Welcome" href="index.html"/>
-      <item name="Events" href="events.html"/>
-      <item name="Location" href="location.html"/>
-<!-- Meetings -->
+      <item name="Advocacy" href="advocacy.html"/>
+      <item name="Education" href="education.html"/>
+      <item name="Support" href="support.html"/>
+      <item name="Social" href="social.html"/>
     </links>
+    <menu inherit="top">
+      <item name="Welcome" href="index.html"/>
+      <item name="Advocacy" href="advocacy.html"/>
+      <item name="Education" href="education.html"/>
+      <item name="Support" href="support.html"/>
+      <item name="Social" href="social.html"/>
+    </menu>
   </body>
   <poweredBy>
     <logo width="155" height="60" name="Maven" href="https://kernel.org/"
