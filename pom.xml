@@ -70,7 +70,7 @@
     <site>
       <id>houstonlinux.org</id>
       <name>houstonlinux.org</name>
-      <url>scp://root@houstonlinux.org:9876/srv/www/houstonlinux.org/public_html/test/</url>
+      <url>scp://root@houstonlinux.org:9876/srv/www/houstonlinux.org/public_html/</url>
     </site>
   </distributionManagement>
 

@@ -1,46 +1,30 @@
-# Support Offerings
+### Support Gatherings
 
-The Houston Linux User's Group can help you install your Linux system, configure
-it to your liking, and use the applications within to achieve your goals.  Our
-volunteers hold Lab Sessions where you can bring your hardware for one-on-one 
-assistance.  Most issues can be resolved within a single meeting.  Tasks
-requiring large amounts of effort are welcome, but may stretch across multiple
-Lab Sessions.
+These meetings provide support for Linux people needing assistance with:
 
-## Installation Support
+* Installing Linux on new hardware.
+* Improving or fixing a Linux installation.
+* Questions about how Linux works.
+* Questions / assistance with Linux security.
+* Linux software suggestions.
 
-While most major Linux distributions now install without a hiccup, there are
-times when installations can be a challenge.  Support is available for all
-skill levels.  New Linux users can get first-distro recommendations, and 
-volunteer-guided installations of their chosen distro.  Seasoned Linux veterans
-can get best-effort assistance with non-typical hardware issues, dbus tweaking,
-firmware, and more.  The volunteers of the Houston Linux User's Group are happy
-to assist the installation process along when things go wrong.
+Members meet to both offer support and ask for it.  We generally have a diverse
+enough group to attempt any problem, and have answered thousands of general use
+problems (and fixed hundreds of WiFi card issues) over the years.
 
-The Houston Linux User's Group is glad to assist with installations; but,
-obscure distros and very old hardware might present challenges that exceed the
-resources of our volunteer staff.  While many volunteers are happy to work with
-off-the-beaten path hardware or distros, not all combinations are feasible.  
+#### cPanel Wednesday Meetup
 
-## Configuration Support
+> cPanel, Inc. <br/>
+> Wednesdays, 6:00 P.M. to 9:00 P.M.
+> 2550 North Loop West, Houston, TX 77092 <br/>
+> (832) 633-8599 <br/>
 
-There are a multitude of ways to tweak a Linux system to your liking.  Desktop
-environments, display managers, graphics drivers, system fonts, backgrounds,
-boot screens, system services, and custom application launchers are just a few
-of the many ways one can alter their Linux system to their liking.  
+The building has a sign for **☤ CHCP College** on the East side of the building.
 
-The Houston Linux User's Group is happy to assist in the configuration of your
-Linux installation to achieve your goals.  Our volunteers have experience with
-most common configuration requests.  
+Food and drinks are provided by cPanel, Inc.  Typically we have a variety of pizza,
+including cheese-less pizza for our dairy allergic / lactose intolerant members.
 
-## Application Support
+We meet in the 4th floor conference room at 2550 North Loop West, Houston, TX.
+If the doors are locked, call the number posted on the flyer on the door.
 
-The typical Linux installation comes with a large number of free software
-packages.  The breadth and depth of freely available software is staggering.
-For nearly every software solution, there is a Linux port or analogue.
-
-The Houston Linux User's Group has experience with the most commonly used Linux
-software packages.  While we cannot accommodate support requests for every
-application, we are happy to help with familiar, popular applications.  If
-you are looking for a solution to a specific problem, our volunteers might
-suggest applications to suit your needs.
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d432.7433868908962!2d-95.44473101648154!3d29.80807276017754!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe75370ea49c0fb7c!2scPanel!5e0!3m2!1sen!2sus!4v1493858914477" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="1"></iframe>
