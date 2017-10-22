@@ -28,4 +28,3 @@ We meet in the 4th floor conference room at 2550 North Loop West, Houston, TX.
 If the doors are locked, call the number posted on the flyer on the door.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d432.7433868908962!2d-95.44473101648154!3d29.80807276017754!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe75370ea49c0fb7c!2scPanel!5e0!3m2!1sen!2sus!4v1493858914477" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="1"></iframe>
-
