@@ -2,24 +2,24 @@
 
 These meetings involve promoting Linux and the Houston Linux User Group.  
 They typically involve Linux awareness, group meeting times, and handling
-general questionas about Linux and current popular computing topics.
+general questions about Linux and current popular computing topics.
 They are a great way to meet new people, and understand the needs of
 computer users.
 
 --- 
 
-#### Linux / Station Houston awareness Meetup
+#### Linux / Station Houston Awareness Meet Up
 
-> Station Houston
-> Typically Friday, 10:00 A.M. to 4:00 P.M.
-> 1301 Fannin St #2440, Houston, TX 77002
+> Station Houston <br/>
+> During Open Meetings, 10:00 A.M. to 4:00 P.M. <br/>
+> 1301 Fannin St #2440, Houston, TX 77002 <br/>
 > (281) 393-0500 - Station Houston <br/>
 > (832) 633-8599 - Linux Group Organizer <br/>
 
 Station Houston is an incubator for people interested in starting and growing
 technology oriented businesses.  For those interested, they offer membership
 and coaching to prepare entrepreneurs turn their business ideas into funded
-startups.
+start ups.
 
 A small group of people try to make the open meetings to raise awareness of
 the Houston Linux User's Group.  Please contact the organizer if you wish to
