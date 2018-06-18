@@ -12,11 +12,11 @@ Members meet to both offer support and ask for it.  We generally have a diverse
 enough group to attempt any problem, and have answered thousands of general use
 problems (and fixed hundreds of WiFi card issues) over the years.
 
-#### cPanel Wednesday Meet up
+#### cPanel Meet up: Wednesdays, 6:00 P.M. to 9:00 P.M.
 
 > cPanel, Inc. <br/>
-> Wednesdays, 6:00 P.M. to 9:00 P.M.
-> 2550 North Loop West, Houston, TX 77092 <br/>
+> 2550 North Loop West <br/>
+> Houston, TX 77092 <br/>
 > (832) 633-8599 <br/>
 
 The building has a sign for **cPanel** on the South side of the building, and a
