@@ -44,7 +44,7 @@ Looking to mingle with Linux loving people?
 
 ## Background
 
-The Houston Linux Users Group was founded in 1995.  With over 22 years of
+The Houston Linux Users Group was founded in 1995.  With over 28 years of
 computing history, the group has transitioned with the needs of the computing
 community.
 
