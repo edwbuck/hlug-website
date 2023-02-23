@@ -6,20 +6,22 @@ interested in at the moment.  It's a great way to network with Linux loving peer
 
 --- 
 
-#### Cedar Creek Wednesday Meet Up
+#### Holiday Inn Wednesday Meet Up
 
-> Cedar Creek <br/>
-> Wednesdays, 9:30 P.M. to 12:00 A.M. <br/>
-> 1034 W 20th St, Houston, TX 77008 <br/>
-> (713) 808-9623 <br/>
+> Holiday Inn - Westchase Bar &amp; Grill<br/>
+> Wednesdays, 9:15 P.M. to 11:00 P.M. <br/>
+> 10609 Westpart Drive, Houston, TX 77042 <br/>
+> (713) 532-5400 <br/>
 
-Typically four to eight members drive over to Cedar Creek after the support
-meeting.  If the weather is nice, we get a table outside.  
+Typically four to eight members drive over to the Holiday Inn after the support
+meeting.  If the group is large, we combine tables; otherwise most of us sit at
+the bar.
 
-Along with a full bar and decent beer selection, Cedar Creek offers good
-hamburgers and smothered fries.
+The bar offers food; but, the kitchen closes early.  Since most of the members
+have just eaten at the support meeting, few people are hungry.  The mixed drinks
+are excellent, and a number of bottled and draft beers are available.
 
-Accommodations for computers are sparse, but if you wish to bring a laptop, be
-prepared to tether to your phone for WiFi, and have a battery charge.
+Accommodations for computers are sparse, as there are limited power outlets.  WiFi
+is available, just ask a group member for the connection details.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3462.1685451046233!2d-95.42054776669835!3d29.80167471916197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdd6546fba4eee76!2sCedar+Creek+Cafe+Bar+%26+Grill!5e0!3m2!1sen!2sus!4v1494553642006" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="1"></iframe>
+<iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=10609%20Westpark%20Drive%20Houston+(Westchase%20Bar%20&amp;%20Grill)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="1"></iframe>
