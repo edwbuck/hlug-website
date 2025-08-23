@@ -85,18 +85,33 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+	<version>3.6.1</version>
+	<executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.9.9</version>
+                </requireMavenVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.6</version>
+        <version>4.0.0-M13</version>
         <dependencies>
           <dependency>
-            <groupId>io.wcm.maven.skins</groupId>
+            <groupId>io.github.devacfr.maven.skins</groupId>
             <artifactId>reflow-velocity-tools</artifactId>
-            <version>1.0.0</version>
-          </dependency>
-          <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.7</version>
+            <version>2.3.4</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -108,7 +123,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.9</version>
+        <version>3.9.0</version>
         <reportSets>
           <reportSet>
             <reports>
@@ -129,7 +144,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-site-plugin</artifactId>
-            <version>3.6</version>
+            <version>4.0.0-M8</version>
             <configuration>
               <siteDirectory>${basedir}/src/website/</siteDirectory>
               <outputDirectory>${project.build.directory}/website/</outputDirectory>
@@ -147,6 +162,12 @@
             <configuration>
               <skip>true</skip>
             </configuration>
+            <reportSets>
+              <reportSet>
+                <reports>
+                </reports>
+              </reportSet>
+            </reportSets>
           </plugin>
         </plugins>
       </reporting>
