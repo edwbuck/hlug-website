@@ -30,36 +30,6 @@
         <role>Website Maintainer</role>
       </roles>
     </developer>
-    <developer>
-      <id>ColMelvin</id>
-      <name>Chris Lindee</name>
-      <organization>Houston Linux User's Group</organization>
-      <organizationUrl>http://houstonlinux.org/</organizationUrl>
-      <timezone>America/Chicago</timezone>
-      <roles>
-        <role>Website Maintainer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>Osndok</id>
-      <name>Robert Hailey</name>
-      <organization>Houston Linux User's Group</organization>
-      <organizationUrl>http://houstonlinux.org/</organizationUrl>
-      <timezone>America/Chicago</timezone>
-      <roles>
-        <role>Website Maintainer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>cPMarco</id>
-      <name>Marco Ferrufino</name>
-      <organization>Houston Linux User's Group</organization>
-      <organizationUrl>http://houstonlinux.org/</organizationUrl>
-      <timezone>America/Chicago</timezone>
-      <roles>
-        <role>Website Maintainer</role>
-      </roles>
-    </developer>
   </developers>
 
   <properties>
