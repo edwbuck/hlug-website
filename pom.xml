@@ -1,91 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 http://maven.apache.org/xsd/maven-4.1.0.xsd" root="true">
-  <modelVersion>4.1.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <groupId>org.houstonlinux.www</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.houstonlinux</groupId>
   <artifactId>website</artifactId>
-  <version>1.0-SNAPSHOT</version>
-
+  <version>2.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>HLUG Website Project</name>
-  <url>http://houstonlinux.org</url>
-  <description>
-    This project builds the staticly served portion of the Houston Linux User's Group
-    website.  This website can be found at http://houstonlinux.org/
-  </description>
+  <name>HLUG Website</name>
+  <url>https://houstonlinux.org</url>
+
+  <description>The Houston Linux User Group Website.</description>
+  <inceptionYear>2012</inceptionYear>
+  
+  <properties>
+    <sitePluginVersion>3.12.1</sitePluginVersion>
+    <lastRelease>2.0.0</lastRelease>
+  </properties>
+
+
+  <scm>
+    <connection>scm:git:https://github.com/edwbuck/hlug-website.git</connection>
+    <developerConnection>scm:git:https://github.com/edwbuck/hlug-website.git</developerConnection>
+    <url>https://github.com/edwbuck/hlug-website/tree/master</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/edwbuck/hlug-website/issues</url>
+  </issueManagement>
+
+  <distributionManagement>
+    <site>
+      <id>hlug-website</id>
+      <name>Deployment to production website test directory</name>
+      <url>scpexe://houstonlinux.org/var/www/html/houstonlinux.org</url>
+    </site>
+  </distributionManagement>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <developers>
     <developer>
       <id>edwbuck</id>
       <name>Edwin Buck</name>
-      <email>edwbuck@gmail.com</email>
-      <organization>Houston Linux User's Group</organization>
-      <organizationUrl>http://houstonlinux.org/</organizationUrl>
       <timezone>America/Chicago</timezone>
+      <url>https://edwinbuck.com</url>
       <roles>
-        <role>President</role>
-        <role>Website Maintainer</role>
+	      <role>President</role>
+	      <role>Maintainer</role>
       </roles>
     </developer>
   </developers>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.site.deploy.clean>true</maven.site.deploy.clean>
-  </properties>
-
-  <distributionManagement>
-    <site>
-      <id>houstonlinux.org</id>
-      <name>houstonlinux.org</name>
-      <url>scp://root@houstonlinux.org:9876/srv/www/houstonlinux.org/public_html/</url>
-    </site>
-  </distributionManagement>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.github.olamy.maven.skins</groupId>
+        <artifactId>reflow-velocity-tools</artifactId>
+        <version>2.0.1-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-ssh</artifactId>
-        <version>2.12</version>
-      </extension>
-    </extensions>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-	<version>3.6.1</version>
-	<executions>
-          <execution>
-            <id>enforce-maven</id>
-            <goals>
-              <goal>enforce</goal>
-            </goals>
-            <configuration>
-              <rules>
-                <requireMavenVersion>
-                  <version>4.0.0-rc-4</version>
-                </requireMavenVersion>
-              </rules>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+      <!-- Configure Maven site plugin for Reflow skin and Markdown support -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>4.0.0-M16</version>
+        <version>3.12.1</version>
         <dependencies>
           <dependency>
-            <groupId>io.github.devacfr.maven.skins</groupId>
+            <groupId>io.github.olamy.maven.skins</groupId>
             <artifactId>reflow-velocity-tools</artifactId>
-            <version>2.3.4</version>
+            <version>2.0.1-SNAPSHOT</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-ssh-external</artifactId>
+            <version>3.5.3</version>
           </dependency>
         </dependencies>
+        <configuration>
+          <generateReports>true</generateReports>
+          <inputEncoding>UTF-8</inputEncoding>
+          <outputEncoding>UTF-8</outputEncoding>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <preparationGoals>clean install</preparationGoals>
+          <goals>deploy</goals>
+          <pushChanges>true</pushChanges>
+          <localCheckout>true</localCheckout>
+          <tagNameFormat>website-@{project.version}</tagNameFormat>
+        </configuration>
       </plugin>
     </plugins>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.11.0</version>
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-publish-plugin</artifactId>
+          <version>3.1.0</version>
+          <configuration>
+            <scmBranch>gh-pages</scmBranch>
+            <tryUpdate>true</tryUpdate>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 
   <reporting>
@@ -93,56 +142,24 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.9.0</version>
+        <version>3.4.1</version>
         <reportSets>
           <reportSet>
             <reports>
-              <report>index</report>
-              <report>project-team</report>
+              <report>summary</report>
+              <report>modules</report>
+              <report>team</report>
+              <report>scm</report>
+              <report>issue-management</report>
+              <report>dependencies</report>
+              <report>dependency-convergence</report>
+              <report>plugins</report>
             </reports>
           </reportSet>
         </reportSets>
       </plugin>
+
     </plugins>
   </reporting>
 
-  <profiles>
-    <profile>
-      <id>website</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-site-plugin</artifactId>
-            <version>4.0.0-M16</version>
-            <configuration>
-              <siteDirectory>${basedir}/src/website/</siteDirectory>
-              <outputDirectory>${project.build.directory}/website/</outputDirectory>
-              <stagingDirectory>${project.build.directory}/website-stage/</stagingDirectory>
-            </configuration>
-          </plugin>
-        </plugins>
-      </build>
-      <reporting>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>2.9</version>
-            <configuration>
-              <skip>true</skip>
-            </configuration>
-            <reportSets>
-              <reportSet>
-                <reports>
-                </reports>
-              </reportSet>
-            </reportSets>
-          </plugin>
-        </plugins>
-      </reporting>
-    </profile>
-  </profiles>
-
 </project>
-<!-- set ft=xml expandtab ts=2 sw=2 ai -->

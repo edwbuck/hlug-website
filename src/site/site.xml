@@ -1,24 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="HLUG Website Project"
-  xmlns="http://maven.apache.org/DECORATION/1.3.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+<project name="Reflow Maven Skin"
+  xmlns="https://maven.apache.org/DECORATION/1.3.0"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://maven.apache.org/DECORATION/1.3.0 https://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
+  <bannerLeft>
+    <!-- Reflow Maven Skin, but with "Reflow" highlighted -->
+    <name><![CDATA[
+      The Houston Linux User Group
+      ]]>
+    </name>
+    <href>https://houstonlinux.org/index.html</href>
+  </bannerLeft>
+  
+  <publishDate position="bottom" format="yyyy-MM-dd" />
+  <version position="bottom" />
 
   <skin>
-    <groupId>io.github.devacfr.maven.skins</groupId>
+    <groupId>io.github.olamy.maven.skins</groupId>
     <artifactId>reflow-maven-skin</artifactId>
-    <version>2.3.1</version>
+    <version>2.0.1-SNAPSHOT</version>
   </skin>
 
   <custom>
     <reflowSkin>
+      <!-- Make this to 'false' for local development, i.e. file:// URLs -->
+      <protocolRelativeURLs>false</protocolRelativeURLs>
       <smoothScroll>true</smoothScroll>
       <theme>bootswatch-spacelab</theme>
+      <highlightJs>true</highlightJs>
+      <highlightJsTheme>github</highlightJsTheme>
+      <absoluteResourceURL>https://houstonlinux.org/</absoluteResourceURL>
+      <skinAttribution>false</skinAttribution>
+
+      <brand>
+        <!-- Brand text in top-left part of the site -->
+        <name>
+          <![CDATA[
+          The Houston Linux User Group
+          ]]>
+        </name>
+      	<href>https://houstonlinux.org</href>
+      </brand>
+      <slogan>Welcoming Linux Users since 1995</slogan>
+
+      <titleTemplate>%2$s | %1$s </titleTemplate>
+
+      <toc>top</toc>
+      <tocTopMax>6</tocTopMax>
+
+      <topNav>Leadership|Support</topNav>
+
+      <bottomNav maxSpan="9" >
+        <column>Main|Contribute</column>
+        <column>Meetings|Tools</column>
+        <column>Documentation</column>
+        <column>Organization|reports</column>
+      </bottomNav>
+      <bottomDescription>
+        <![CDATA[
+          The <span class="color-highlight">Houston Linux User Group</span> or HLUG is
+          a local professional group serving the Houston Area.  It maintains an
+          active user base of people interested in learning, using, and promoting
+          the Linux operating system, and the tools and applications available for it.
+        ]]>
+      </bottomDescription>
+      <pages>
+	      <index project="website">
+          <titleTemplate>HLUG</titleTemplate>
+
+          <breadcrumbs>false</breadcrumbs>
+          <toc>false</toc>
+
+          <markPageHeader>false</markPageHeader>
+          <sections>
+            <carousel />
+            <columns>2</columns>
+            <body />
+            <sidebar />
+          </sections>
+        </index>
+
+        <contribute>
+          <breadcrumbs>false</breadcrumbs>
+        </contribute>
+
+        <!-- Disable source highlighting for Maven reports -->
+        <source-repository>
+          <highlightJs>false</highlightJs>
+        </source-repository>
+        <issue-tracking>
+          <highlightJs>false</highlightJs>
+          <toc>false</toc>
+        </issue-tracking>
+        <license>
+          <highlightJs>false</highlightJs>
+          <toc>false</toc>
+        </license>
+        <!-- Disable ToC for some Maven reports -->
+        <project-info>
+          <toc>false</toc>
+        </project-info>
+        <github-report>
+          <toc>false</toc>
+        </github-report>
+        <dependencies>
+          <tocTopMax>4</tocTopMax>
+        </dependencies>
+      </pages>
+      <googleAnalytics>
+        <useGtag>true</useGtag>
+      </googleAnalytics>
+
     </reflowSkin>
   </custom>
 
-  <body>
-    <menu ref="reports"/>
-  </body>
+  <googleAnalyticsAccountId>G-KQBNBWNQ53</googleAnalyticsAccountId>
 
+  <body>
+    <!-- Add a rel to Google profile for all pages -->
+  
+    <links>
+      <item name="Mission" href="mission.html" />
+      <item name="Meetings" href="meetings.html" />
+      <item name="Members" href="members.html" />
+    </links>
+
+    <breadcrumbs>
+      <item name="Home" href="/" />
+    </breadcrumbs>
+  
+    <menu name="Main" inherit="top">
+      <item name="Home" href="index.html" />
+      <item name="Advocacy" href="advocacy.html"/>
+      <item name="Education" href="education.html"/>
+      <item name="Support" href="support.html"/>
+      <item name="Social" href="social.html"/>
+    </menu>
+
+    <menu name="Meetings" inherit="top">
+      <item name="Admin Meetings" href="meetings/admin.html" />
+      <item name="User Meetings" href="meetings/user.html" />
+      <item name="Social Meetings" href="meetings/social.html" />
+    </menu>
+
+    <menu name="Documentation" inherit="bottom">
+      <item name="Basics" href="documenation/basics" />
+      <item name="Internals" href="skin/" />
+      <item name="Distros" href="skin/" />
+      <item name="Command Line" href="skin/" />
+      <item name="Bash" href="skin/" />
+      <item name="Package Management" href="skin/config.html" />
+      <item name="Packaging Software" href="skin/themes/" />
+      <item name="Programming" href="skin/layouts.html" />
+      <item name="Databases" href="skin/components.html" />
+      <item name="Web Servers" href="skin/misc.html" />
+    </menu>
+
+    <menu name="Tools" inherit="bottom">
+      <item name="Job Search" href="companies.html" />
+      <item name="Resume Support" href="companies.html" />
+      <item name="Coaching" href="companies.html" />
+      <item name="Mentoring" href="companies.html" />
+      <item name="Classes" href="companies.html" />
+    </menu>
+
+    <menu name="Contribute" inherit="bottom">
+      <item name="Contribute" href="contribute.html" />
+      <item name="Voluenteering" href="https://github.com/olamy/reflow-maven-skin/issues/" />
+      <item name="Support" href="https://github.com/olamy/reflow-maven-skin/" />
+    </menu>
+
+    <menu name="Organization" inherit="bottom">
+      <item name="Leadership" href="leadership.html" />
+      <item name="Membership" href="membership.html" />
+      <item name="Sponsorship" href="sponsorship.html" />
+    </menu>
+
+    <menu name="Build details" ref="reports" inherit="bottom"/>
+  </body>
 </project>
+<!-- vim: set sw=2 ts=2 ai et : -->

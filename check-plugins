@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-mvn4 versions:display-plugin-updates

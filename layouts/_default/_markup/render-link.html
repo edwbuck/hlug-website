@@ -1,7 +1,0 @@
-<a href="{{ .Destination | safeURL }}"
-   class="underline text-teal-800 hover:text-red-950"
-  {{- with .Title }} title="{{ . }}"{{ end -}}
->
-  {{- with .Text }}{{ . }}{{ end -}}
-</a>
-{{- /* chomp trailing newline */ -}}
