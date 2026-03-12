@@ -8,7 +8,7 @@ others
 Each meeting is noted in our [calendar][google-calendar].  To learn how you can
 add the calendar to yours, please follow our instructions to subscribe to the
 calendar for your [Google account][google-add-calendar] or 
-[iPhone][iphone-add-calednar] device.
+[iPhone][iphone-add-calendar] device.
 
 ## User Meetings
 
