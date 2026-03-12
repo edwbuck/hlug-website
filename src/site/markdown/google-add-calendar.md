@@ -71,7 +71,7 @@ assist as best we can.
 [select-applications]: images/google-select-applications.png
 [select-calendar]: images/google-select-calendar.png
 [select-other-calendars]: images/google-select-other-calendars.png
-[subcribe-other-calendars]: images/google-subcribe-other-calendars.png
+[subscribe-other-calendars]: images/google-subscribe-other-calendars.png
 [add-calendar]: images/google-add-calendar-box.png
 [add-calendar-filled]: images/google-add-calendar-box-filled.png
 
