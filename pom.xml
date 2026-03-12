@@ -16,6 +16,11 @@
   <description>The Houston Linux User Group Website.</description>
   <inceptionYear>2012</inceptionYear>
   
+  <organization>
+    <name>Houston Linux User Group</name>
+    <url>https://houstonlinux.org</url>
+  </organization>
+
   <properties>
     <sitePluginVersion>3.12.1</sitePluginVersion>
     <lastRelease>2.0.0</lastRelease>
@@ -62,6 +67,10 @@
       </roles>
     </developer>
   </developers>
+
+  <contributors>
+    <!-- currently we have no non-developer contributors -->
+  </contributors>
 
   <dependencyManagement>
     <dependencies>
