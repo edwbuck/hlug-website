@@ -28,7 +28,7 @@ Network, hire, and job-seek local Linux talent.
 [meetings]: meetings.html
 [members]: members.html
 [sponsorship]: sponsorship.html
-[android-add-calendar]: android-add-calendar.html
+[google-add-calendar]: google-add-calendar.html
 [iphone-add-calendar]: iphone-add-calendar.html
 
 [google-calendar]: https://calendar.google.com/calendar/u/1?cid=aG91c3RvbmxpbnV4dXNlcmdyb3VwQGdtYWlsLmNvbQ
@@ -43,7 +43,7 @@ The Houston Linux User Group continues its legacy of holding weekly user meeting
 User meetings occur on Wednesdays, between 6 P.M. and 9 P.M.  
 
 For locations and details, look to our [calendar][google-calendar], or follow our
-instructions to add the calendar to your [Android][android-add-calendar] or [iPhone][iphone-add-calendar] device.
+instructions to add the calendar to your [Google account][google-add-calendar] or [iPhone][iphone-add-calendar] device.
 
 ## Social Meetings
 
@@ -52,7 +52,7 @@ The Houston Linux User Group continues its legacy of holding weekly social meeti
 User meetings occur on Wednesdays, between 9 P.M. and Midnight.  
 
 For locations and details, look to our [calendar][google-calendar], or follow our
-instructions to add the calendar to your [Android][android-add-calendar] or [iPhone][iphone-add-calendar] device.
+instructions to add the calendar to your [Google account][google-add-calendar] or [iPhone][iphone-add-calendar] device.
 
 ## Support
 

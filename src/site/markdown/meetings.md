@@ -7,7 +7,7 @@ others
 
 Each meeting is noted in our [calendar][google-calendar].  To learn how you can
 add the calendar to yours, please follow our instructions to subscribe to the
-calendar for your [Android][android-add-calendar] or 
+calendar for your [Google account][google-add-calendar] or 
 [iPhone][iphone-add-calednar] device.
 
 ## User Meetings
@@ -58,7 +58,7 @@ meeting made the topic public (like how to close a vulnerability) and the
 attendees adhere to strict privacy rules, which may include NDAs.
 
 [google-calendar]: https://calendar.google.com/calendar/u/1?cid=aG91c3RvbmxpbnV4dXNlcmdyb3VwQGdtYWlsLmNvbQ
-[android-add-calendar]: android-add-calendar.html
+[google-add-calendar]: google-add-calendar.html
 [iphone-add-calendar]: iphone-add-calendar.html
 
 <!-- vim: set filetype=markdown sw=2 ts=2 et ai colorcolumn=80 : -->
