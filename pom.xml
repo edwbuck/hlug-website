@@ -62,8 +62,8 @@
       <timezone>America/Chicago</timezone>
       <url>https://edwinbuck.com</url>
       <roles>
-	      <role>President</role>
-	      <role>Maintainer</role>
+        <role>President</role>
+        <role>Maintainer</role>
       </roles>
     </developer>
   </developers>
@@ -167,7 +167,6 @@
           </reportSet>
         </reportSets>
       </plugin>
-
     </plugins>
   </reporting>
 
