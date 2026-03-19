@@ -132,10 +132,10 @@
   
     <menu name="Main" inherit="top">
       <item name="Home" href="index.html" />
-      <item name="Advocacy" href="advocacy.html"/>
-      <item name="Education" href="education.html"/>
-      <item name="Support" href="support.html"/>
-      <item name="Social" href="social.html"/>
+      <item name="Advocacy" href="mission/advocacy.html"/>
+      <item name="Education" href="mission/education.html"/>
+      <item name="Support" href="mission/support.html"/>
+      <item name="Social" href="mission/social.html"/>
     </menu>
 
     <menu name="Meetings" inherit="top">
@@ -145,36 +145,36 @@
     </menu>
 
     <menu name="Documentation" inherit="bottom">
-      <item name="Basics" href="documenation/basics" />
-      <item name="Internals" href="skin/" />
-      <item name="Distros" href="skin/" />
-      <item name="Command Line" href="skin/" />
-      <item name="Bash" href="skin/" />
-      <item name="Package Management" href="skin/config.html" />
-      <item name="Packaging Software" href="skin/themes/" />
-      <item name="Programming" href="skin/layouts.html" />
-      <item name="Databases" href="skin/components.html" />
-      <item name="Web Servers" href="skin/misc.html" />
+      <item name="Basics" href="documenation/basics.html" />
+      <item name="Internals" href="documentation/internals.html" />
+      <item name="Distros" href="documentation/distros.html" />
+      <item name="Command Line" href="documentation/command_line.html" />
+      <item name="Bash" href="documentation/bash.html" />
+      <item name="Package Management" href="documentation/package_management.html" />
+      <item name="Packaging Software" href="documentation/packaging.html" />
+      <item name="Programming" href="documentation/programming.html" />
+      <item name="Databases" href="documentation/databases.html" />
+      <item name="Web Servers" href="documentation/web_servers.html" />
     </menu>
 
     <menu name="Tools" inherit="bottom">
-      <item name="Job Search" href="companies.html" />
-      <item name="Resume Support" href="companies.html" />
-      <item name="Coaching" href="companies.html" />
-      <item name="Mentoring" href="companies.html" />
-      <item name="Classes" href="companies.html" />
+      <item name="Job Search" href="tools/job_search.html" />
+      <item name="Resume Support" href="tools/resume.html" />
+      <item name="Coaching" href="tools/coaching.html" />
+      <item name="Mentoring" href="tools/mentoring.html" />
+      <item name="Classes" href="tools/classes.html" />
     </menu>
 
     <menu name="Contribute" inherit="bottom">
-      <item name="Contribute" href="contribute.html" />
-      <item name="Voluenteering" href="https://github.com/olamy/reflow-maven-skin/issues/" />
-      <item name="Support" href="https://github.com/olamy/reflow-maven-skin/" />
+      <item name="Contribute" href="contribute/contribute.html" />
+      <item name="Voluenteering" href="contribute/voluenteering.html" />
+      <item name="Support" href="contribute/support.html" />
     </menu>
 
     <menu name="Organization" inherit="bottom">
-      <item name="Leadership" href="leadership.html" />
-      <item name="Membership" href="membership.html" />
-      <item name="Sponsorship" href="sponsorship.html" />
+      <item name="Leadership" href="organization/leadership.html" />
+      <item name="Membership" href="organization/membership.html" />
+      <item name="Sponsorship" href="organization/sponsorship.html" />
     </menu>
 
     <menu name="Build details" ref="reports" inherit="bottom"/>
