@@ -7,7 +7,7 @@
   <bannerLeft>
     <!-- Reflow Maven Skin, but with "Reflow" highlighted -->
     <name><![CDATA[
-      The Houston Linux User Group
+      <img src="images/HLUG_crest.svg" alt="HLUG crest" style="height: 64px; margin-right: 12px; vertical-align: middle;" />The Houston Linux User Group
       ]]>
     </name>
     <href>https://houstonlinux.org/index.html</href>
@@ -34,10 +34,10 @@
       <skinAttribution>false</skinAttribution>
 
       <brand>
-        <!-- Brand text in top-left part of the site -->
+        <!-- Brand logo and text in top-left part of the site -->
         <name>
           <![CDATA[
-          The Houston Linux User Group
+          <img src="images/HLUG_crest.svg" alt="HLUG crest" style="height: 30px; margin-right: 8px; vertical-align: middle;" />The Houston Linux User Group
           ]]>
         </name>
       	<href>https://houstonlinux.org</href>
