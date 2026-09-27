@@ -30,10 +30,18 @@ h3, h4, h5, h6 {
   color: white;
 }
 
-/* A bit of workaround for links being not clickable due to :before element in headings */
-.project-reflow-parent.page-index h2[id]:before {
-  height: 30px;
-  margin-top: -30px;
+/* Reflow offsets anchor targets below the fixed navbar with a 90px :before
+   and a -90px margin. That margin collapses through the heading's own, pulling
+   its box up over the preceding content and swallowing clicks on links there
+   (e.g. the calendar links on the index page). Use scroll-margin-top instead. */
+h1[id]:before, h2[id]:before, h3[id]:before,
+h4[id]:before, h5[id]:before, h6[id]:before,
+a[name]:before {
+  content: none;
+}
+
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], a[name] {
+  scroll-margin-top: 90px;
 }
 
 .project-reflow-parent.page-index .sidebar {
