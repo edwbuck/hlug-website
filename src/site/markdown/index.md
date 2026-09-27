@@ -49,7 +49,7 @@ instructions to add the calendar to your [Google account][google-add-calendar] o
 
 The Houston Linux User Group continues its legacy of holding weekly social meetings.  
 
-User meetings occur on Wednesdays, between 9 P.M. and Midnight.  
+Social meetings occur on Wednesdays, between 9 P.M. and Midnight.  
 
 For locations and details, look to our [calendar][google-calendar], or follow our
 instructions to add the calendar to your [Google account][google-add-calendar] or [iPhone][iphone-add-calendar] device.
