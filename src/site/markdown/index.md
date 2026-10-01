@@ -27,7 +27,7 @@ Network, hire, and job-seek local Linux talent.
 [mission]: mission.html
 [meetings]: meetings.html
 [members]: members.html
-[sponsorship]: sponsorship.html
+[sponsorship]: organization/sponsorship.html
 [google-add-calendar]: google-add-calendar.html
 [iphone-add-calendar]: iphone-add-calendar.html
 
