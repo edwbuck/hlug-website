@@ -30,10 +30,14 @@ h3, h4, h5, h6 {
   color: white;
 }
 
-/* A bit of workaround for links being not clickable due to :before element in headings */
-.project-reflow-parent.page-index h2[id]:before {
-  height: 30px;
-  margin-top: -30px;
+h1[id]:before, h2[id]:before, h3[id]:before,
+h4[id]:before, h5[id]:before, h6[id]:before,
+a[name]:before {
+  content: none;
+}
+
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], a[name] {
+  scroll-margin-top: 90px;
 }
 
 .project-reflow-parent.page-index .sidebar {
